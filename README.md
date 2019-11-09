@@ -6,7 +6,7 @@ link:https://drive.google.com/drive/folders/12xhx-ZhSkbtHluF-6Dgw2TmBYE8l3X1S?us
 | What Olivia did |   |
 | --- | --- |
 | **AGEGROUP** Added AgeGroup structure to the original model     |
--
+|-
   - child(0-12), teen(12-18), old(18+)
   - From 14 stocks to 38 stocks
   - From 2 dimension (gender) to 6 dimension (gender\*age)
@@ -14,11 +14,11 @@ link:https://drive.google.com/drive/folders/12xhx-ZhSkbtHluF-6Dgw2TmBYE8l3X1S?us
   - Added &quot;ageout\_child&quot; and &quot;ageout\_teen&quot; flow and modified the integration from 1 section to 3 section (3 forloops).
  |
 | Updated likelihood function to log likelihood function |
--
+|-
   - Solved the &quot;newWeight = nan&quot; problem, it was because one of the likelihood = nan.
  |
 | Updated graphs in R |
--
+|-
   - Changed the graphs from female, male to female\_child, female\_teen, female\_old, male\_child, male\_teen, male\_old
   - Modified RInterfaceRemand file
   - Note: Indices are off in the R file: the index in R should be index in remandModel.h+1
