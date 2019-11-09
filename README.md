@@ -11,8 +11,7 @@ link:https://drive.google.com/drive/folders/12xhx-ZhSkbtHluF-6Dgw2TmBYE8l3X1S?us
   - From 2 dimension (gender) to 6 dimension (gender\*age)
   - Modified remandModel.c, remandModel.h files
   - Added &quot;ageout\_child&quot; and &quot;ageout\_teen&quot; flow and modified the integration from 1 section to 3 section (3 forloops).
- |
-| Updated likelihood function to log likelihood function |
+ || Updated likelihood function to log likelihood function |
 |-
   - Solved the &quot;newWeight = nan&quot; problem, it was because one of the likelihood = nan.
  |
