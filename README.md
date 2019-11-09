@@ -5,8 +5,7 @@ link:https://drive.google.com/drive/folders/12xhx-ZhSkbtHluF-6Dgw2TmBYE8l3X1S?us
 
 | What Olivia did |   |
 | --- | --- |
-| **AGEGROUP** Added AgeGroup structure to the original model     |
-|-
+| **AGEGROUP** Added AgeGroup structure to the original model     |-
   - child(0-12), teen(12-18), old(18+)
   - From 14 stocks to 38 stocks
   - From 2 dimension (gender) to 6 dimension (gender\*age)
